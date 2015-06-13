@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <preflightcheck
-    title="Pre-Flight Checklist"
+    title="Pre-Voo lista de checagem"
     type="APM"
     version="1" >
 
-    <category label="User Checklist" >
+    <category label="Lista de verificação do usuário" >
         <check_item
-            description="Ensure Camera is connected and switch on"
+            description="Certifique-se que a camera está conectada e ligada"
             editable="yes"
             mandatory="yes"
-            title="Camera connected and switch on" />
+            title="Camera está conectada e ligada" />
     </category>
-    <category label="Control Surface" >
+    <category label="Superfície de Controle" >
         <check_item
-            description="Ensure surface control is in the right direction"
+            description="Tenha certeza que a superficie de controle está na possição correta"
             editable="yes"
             mandatory="yes"
             title="Aileron" />
         <check_item
-            description="Ensure surface control is in the right direction"
+            description="Tenha certeza que a superficie de controle está na possição correta"
             editable="yes"
             mandatory="yes"
             title="Elevator" />
         <check_item
-            description="Ensure surface control is in the right direction"
+            description="Tenha certeza que a superficie de controle está na possição correta"
             editable="yes"
             mandatory="yes"
             title="Rudder" />
     </category>
-    <category label="System Checklist" >
+    <category label="Lista de checagem do sistema" >
         <switch_item
-            description="Telemetry connection state"
+            description="Status de conexão telemetria"
             editable="yes"
             mandatory="yes"
             system_tag="SYS_CONNECTION_STATE"
@@ -44,7 +44,7 @@
             minimum_val="5"
             nominal_val="6"
             system_tag="SYS_GPS3D_LVL"
-            title="GPS(3D) Sats"
+            title="GPS fixo 3D"
             unit="%.0f Sats." />
         <level_item
             description="Show battery level"
@@ -54,7 +54,7 @@
             minimum_val="75"
             nominal_val="80"
             system_tag="SYS_BATTREM_LVL"
-            title="Battery level"
+            title="Nivel da bateria"
             unit="%.1f%%" />
         <level_item
             description="Show battery voltage"
@@ -64,7 +64,7 @@
             minimum_val="10.5"
             nominal_val="11.1"
             system_tag="SYS_BATTVOL_LVL"
-            title="Battery voltage"
+            title="Voltagemd da bateria"
             unit="%.1fV" />
         <level_item
             description="Show battery current"
@@ -74,7 +74,7 @@
             minimum_val="5"
             nominal_val="10"
             system_tag="SYS_BATTCUR_LVL"
-            title="Battery current"
+            title="Corrente da bateria"
             unit="%.1fA" />
     </category>
 
